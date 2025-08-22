@@ -33,6 +33,13 @@ print(tokens)
 - Implémenter le parsing des objets (`parse_object`) et des tableaux (`parse_array`)
 - Gérer les erreurs de syntaxe plus finement
 - Développer la structure de base de données sur la base de ce parseur
+- Optimisation : 
+  - Supprimer les copies de chaines
+  - Patterns répétitif => Pré-compilation de Regex
+  - if/elif => Dictionnaires ?
+  - Accès mémoire plus rapide => memoryview/bytes ?
+  - Parser récursif
+- test de performance
 
 ## Pourquoi ce projet ?
 
