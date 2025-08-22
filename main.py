@@ -56,7 +56,7 @@ class JsonParser:
 
         if string_len >= self.TRUE_LEN and string[:self.TRUE_LEN] == 'true':
             return True, string[self.TRUE_LEN:]
-        elif string_len >= self.FALSE_LEN == 'false' and string[:self.FALSE_LEN] == 'false':
+        elif string_len >= self.FALSE_LEN and string[:self.FALSE_LEN] == 'false':
             return False, string[self.FALSE_LEN:]
         return None, string
 
